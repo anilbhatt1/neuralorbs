@@ -3,7 +3,9 @@ import './App.css';
 import { MuiNavbar } from './components/MuiNavbar';
 import Home from './pages/Home'; 
 import About from './pages/About';
-import Blogs from './pages/Blogs';
+import Blogs from './pages/Blogs/Blogs';
+import BlogsAI from './pages/Blogs/BlogsAI';
+import BlogsMLOps from './pages/Blogs/BlogsMLOps';
 import Contact from './pages/Contact';
 import IotUsers from './pages/Users/IotUsers';
 import IotAccelero from './pages/IotApps/IotAccelero';
@@ -21,6 +23,8 @@ const App = () => {
                 <Route path="/about" element={<About />} />
                 <Route path="/users" element={<IotUsers />} />
                 <Route path="/blogs" element={<Blogs />} />
+                <Route path="/blogs/AI" element={<BlogsAI />} />
+                <Route path="/blogs/MLOps" element={<BlogsMLOps />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/iotapps/accelero" element={<IotAccelero username={"anilbhatt1"}/>} />
                 <Route path="/iotapps/accelero/get" 

@@ -22,6 +22,15 @@ export const MuiNavbar = () => {
         console.log('handleGyroclicked');
         setAnchorEl(null)
     }
+    const handleblogsAI = () => {
+        console.log('handleblogsAI clicked');
+        setAnchorEl(null)
+    }    
+    const handleblogsMLOps = () => {
+        console.log('handleblogsMLOps clicked');
+        setAnchorEl(null)
+    }    
+
 return(
     <AppBar position='static'>
         <Toolbar>
@@ -38,7 +47,7 @@ return(
                 <Button component={Link} to="/" color='inherit'>Home</Button>
                 <Button component={Link} to="/about" color='inherit'>About</Button>
                 <Button component={Link} to="/users" color='inherit'>Users</Button>
-                <Button component={Link} to="/blogs" color='inherit'>Blogs</Button>
+                {/* <Button component={Link} to="/blogs" color='inherit'>Blogs</Button> */}
                 <Button color='inherit' 
                         id='resources-button' 
                         onClick={handleClick}
@@ -72,6 +81,42 @@ return(
                             Gyro
                         </MenuItem>
                     </Menu>
+
+                    <Button color='inherit' 
+                        id='resources-button1' 
+                        onClick={handleClick}
+                        aria-controls={open ? 'resources-menu1' : undefined}
+                        aria-haspopup='true'
+                        aria-expanded={open ? 'true' : undefined}
+                        endIcon={<KeyboardArrowDownIcon />}
+                        component={Link} to="/blogs" 
+                >
+                    Blogs
+                </Button>                             
+                    <Menu id='resources-menu1' 
+                        anchorEl={anchorEl} 
+                        open={open}
+                        MenuListProps={{
+                            "aria-labelledby":'resources-button1'
+                        }}
+                        onClose={handleClose}
+                        anchorOrigin={{
+                            vertical: 'bottom',
+                            horizontal: 'right'
+                        }}
+                        transformOrigin={{
+                            vertical: 'top',
+                            horizontal: 'right'
+                        }}                                               
+                    >
+                        <MenuItem component={Link} to="/blogs/AI" onClick={handleblogsAI}>   
+                            AI 
+                        </MenuItem>
+                        <MenuItem component={Link} to="/blogs/MLOps" onClick={handleblogsMLOps}>
+                            MLOps
+                        </MenuItem>
+                    </Menu>
+
                 <Button component={Link} to="/contact" color='inherit'>Contact</Button>                
             </Stack>
         </Toolbar>
