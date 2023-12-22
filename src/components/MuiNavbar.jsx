@@ -11,78 +11,32 @@ export const MuiNavbar = () => {
         setAnchorEl(event.currentTarget)
     }
     const handleClose = () => {
-        console.log('handleClose clicked');
-        setAnchorEl(null)
-    }
-    const handleAccelero = () => {
-        console.log('handleAccelero clicked');
-        setAnchorEl(null)
-    }
-    const handleGyro = () => {
-        console.log('handleGyroclicked');
         setAnchorEl(null)
     }
     const handleblogsAI = () => {
-        console.log('handleblogsAI clicked');
         setAnchorEl(null)
     }    
     const handleblogsMLOps = () => {
-        console.log('handleblogsMLOps clicked');
         setAnchorEl(null)
     }    
 
 return(
-    <AppBar position='static'>
+    <AppBar position='static' justifyContent='left'>
         <Toolbar>
             <IconButton aria-label="logo" color="inherit" size="large" edge="start">
                     <PsychologyIcon />
             </IconButton>         
-            <Typography variant='h5' component='div' sx={{ flexGrow: 1}}>
-                    Neural-Orbs 
+            <Typography variant='h6' component='div' sx={{ flexGrow: 1}}>                     
+                <Button component={Link} to="/" color='inherit'>
+                    <Typography variant="h6" sx={{color: 'white', fontFamily: 'Raleway'}}>
+                        Neural-Orbs               
+                    </Typography>                       
+                </Button>
             </Typography>
-            <Typography variant='body2' sx={{ flexGrow: 1}}>
-                    Logged in as : anilbhatt1
-            </Typography>
-            <Stack direction='row' spacing={2}>
-                <Button component={Link} to="/" color='inherit'>Home</Button>
-                <Button component={Link} to="/about" color='inherit'>About</Button>
-                <Button component={Link} to="/users" color='inherit'>Users</Button>
-                {/* <Button component={Link} to="/blogs" color='inherit'>Blogs</Button> */}
+            <Stack direction='row' spacing={1} justifyContent='left'>
+                {/* <Button component={Link} to="/" color='inherit'>Home</Button> */}
+                <Button component={Link} to="/apps" color='inherit'>Apps</Button>
                 <Button color='inherit' 
-                        id='resources-button' 
-                        onClick={handleClick}
-                        aria-controls={open ? 'resources-menu' : undefined}
-                        aria-haspopup='true'
-                        aria-expanded={open ? 'true' : undefined}
-                        endIcon={<KeyboardArrowDownIcon />}
-                >
-                    IOT Apps
-                </Button>                             
-                    <Menu id='resources-menu' 
-                        anchorEl={anchorEl} 
-                        open={open}
-                        MenuListProps={{
-                            "aria-labelledby":'resources-button'
-                        }}
-                        onClose={handleClose}
-                        anchorOrigin={{
-                            vertical: 'bottom',
-                            horizontal: 'right'
-                        }}
-                        transformOrigin={{
-                            vertical: 'top',
-                            horizontal: 'right'
-                        }}                                               
-                    >
-                        <MenuItem component={Link} to="/iotapps/accelero" onClick={handleAccelero}>   
-                            Accelero
-                        </MenuItem>
-                        <MenuItem component={Link} to="/iotapps/gyro" onClick={handleGyro}>
-                            Gyro
-                        </MenuItem>
-                    </Menu>
-
-                    <Button color='inherit' 
                         id='resources-button1' 
                         onClick={handleClick}
                         aria-controls={open ? 'resources-menu1' : undefined}
@@ -116,7 +70,6 @@ return(
                             MLOps
                         </MenuItem>
                     </Menu>
-
                 <Button component={Link} to="/contact" color='inherit'>Contact</Button>                
             </Stack>
         </Toolbar>
