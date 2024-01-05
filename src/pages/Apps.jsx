@@ -7,7 +7,12 @@ const Apps = () => {
     <Stack spacing={4} sx={{ margin: 2}}>
         <Stack direction='row' spacing={2} justifyContent='center' >
             <Typography variant="h3" sx={{color: '#673ab7', fontFamily: 'Raleway'}}>
-                AI Blogs
+                AI Apps
+            </Typography>
+        </Stack>
+        <Stack direction='row' spacing={2} justifyContent='center' >
+            <Typography variant="h5" sx={{color: '#673ab7', fontFamily: 'Raleway'}}>
+                Apps may take few minutes to load due to cold-start. 
             </Typography>
         </Stack>
         <Stack direction='row' spacing={4} >

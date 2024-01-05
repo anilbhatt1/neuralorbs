@@ -14,7 +14,7 @@ const Contact = () => {
                     />    
                     <Typography variant="h2" sx={{color: 'black', fontFamily: 'Raleway'}}>
                         <br />
-                        Catch me if you can...
+                        Thank You...
                         <br />                 
                     </Typography>
                 </Stack>
