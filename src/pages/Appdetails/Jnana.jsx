@@ -28,7 +28,7 @@ const Jnana = () => {
               <Typography variant="h4" style={{ fontFamily: "Crimson Text, serif"}} m={4}>
                   Try-out the app :  
                   <Link href={hfurl} 
-                        underline="none" variant="h4"
+                        underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
                     Jnana-Multimodal LLM
                   </Link> 
@@ -44,7 +44,7 @@ const Jnana = () => {
               <Typography variant="h4" style={{ fontFamily: "Crimson Text, serif"}} m={4}>
                   Check the code : 
                   <Link href={githuburl} 
-                        underline="none" variant="h4"
+                        underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
                     Github
                   </Link> 
@@ -60,7 +60,7 @@ const Jnana = () => {
               <Typography variant="h4" style={{ fontFamily: "Crimson Text, serif"}} m={4}>
                   Read my detailed blog on building this app : 
                   <Link href={blogurl} 
-                        underline="none" variant="h4"
+                        underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
                     Blog
                   </Link> 
@@ -76,7 +76,7 @@ const Jnana = () => {
               <Typography variant="h4" style={{ fontFamily: "Crimson Text, serif"}} m={4}>
                   View youtube video demo : 
                   <Link href={yturl} 
-                        underline="none" variant="h4"
+                        underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
                     Youtube Demo Video
                   </Link> 

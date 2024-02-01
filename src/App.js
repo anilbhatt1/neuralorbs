@@ -4,6 +4,7 @@ import { MuiNavbar } from './components/MuiNavbar';
 import Home from './pages/Home'; 
 import Apps from './pages/Apps';
 import Jnana from './pages/Appdetails/Jnana';
+import Phi2dialoggen from './pages/Appdetails/Phi2dialoggen';
 import BlogsAI from './pages/Blogs/BlogsAI';
 import BlogsMLOps from './pages/Blogs/BlogsMLOps';
 import Contact from './pages/Contact';
@@ -17,6 +18,7 @@ const App = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/apps" element={<Apps />} />
                 <Route path="/apps/jnana" element={<Jnana />} />
+                <Route path="/apps/phi2dialoggen" element={<Phi2dialoggen />} />
                 <Route path="/blogs/AI" element={<BlogsAI />} />
                 <Route path="/blogs/MLOps" element={<BlogsMLOps />} />
                 <Route path="/contact" element={<Contact />} />

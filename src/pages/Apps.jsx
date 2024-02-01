@@ -18,14 +18,14 @@ const Apps = () => {
         <Stack direction='row' spacing={4} >
             <Avatar
                 variant="square"
-                src='/images/jnana.png'
+                src='/images/jnana_app_cover.png'
                 alt='Jane Doe'
                 sx={{bgcolor: 'primary.main', height:60, width:75}}
             />                                    
             <Typography variant="h5" >
-                <Link href="/apps/jnana"
-                // {/* <Link href="https://huggingface.co/spaces/neuralorbs/Jnana-Phi2-Multimodal-Conversation-Agent" */}
-                    sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
+                <Link href="/apps/jnana"               
+                    sx={{color: 'black', fontFamily : 'Helvetica Neue'}} 
+                    target="_blank" rel="noopener noreferrer"
                 >
                     Jnana-Multimodal LLM
                 </Link> 
@@ -34,13 +34,14 @@ const Apps = () => {
         <Stack direction='row' spacing={4} >
             <Avatar
                 variant="square"
-                src='/images/phi2_dialog_partner.png'
+                src='/images/phi2dialoggen_app_cover.png'
                 alt='Jane Doe'
                 sx={{bgcolor: 'primary.main', height:60, width:75}}
             />                                    
             <Typography variant="h5" >
-                <Link href="https://huggingface.co/spaces/neuralorbs/phi2-dialog-partner"
+                <Link href="/apps/phi2dialoggen"
                     sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
+                    target="_blank" rel="noopener noreferrer"
                 >
                     Phi2-Dialog-Partner
                 </Link> 
