@@ -13,13 +13,14 @@ const BlogsAI = () => {
                 <Stack direction='row' spacing={2} >
                     <Avatar
                         variant="square"
-                        src='/images/jnana.png'
+                        src='/images/jnana_app_cover.png'
                         alt='Jane Doe'
                         sx={{bgcolor: 'primary.main', height:60, width:75}}
                     />                                    
                     <Typography variant="h5" >
                         <Link href="http://tinyurl.com/jnana-blog"
                             sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
+                            target="_blank" rel="noopener noreferrer"
                         >
                             Building a Multimodal LLM from scratch
                         </Link> 
@@ -35,6 +36,7 @@ const BlogsAI = () => {
                     <Typography variant="h5" >
                         <Link href="https://wordpress.com/post/anilbhatt1.tech.blog/440"
                             sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
+                            target="_blank" rel="noopener noreferrer"
                         >
                             Understanding Object detection with YOLO
                         </Link> 
@@ -50,6 +52,7 @@ const BlogsAI = () => {
                     <Typography variant="h5" >
                         <Link href="https://wordpress.com/post/anilbhatt1.tech.blog/332"
                             sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
+                            target="_blank" rel="noopener noreferrer"
                         >
                             CNN - Activation Functions, Global Average Pooling, Softmax, Negative Likelihood Loss
                         </Link> 
@@ -65,6 +68,7 @@ const BlogsAI = () => {
                     <Typography variant="h5" >
                         <Link href="https://wordpress.com/post/anilbhatt1.tech.blog/237"
                             sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
+                            target="_blank" rel="noopener noreferrer"
                         >
                             Max-Pooling, Combining Channels using 1x1 convolutions, Receptive Field calculation
                         </Link> 
@@ -80,6 +84,7 @@ const BlogsAI = () => {
                     <Typography variant="h5" >
                         <Link href="https://wordpress.com/post/anilbhatt1.tech.blog/151"
                             sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
+                            target="_blank" rel="noopener noreferrer"
                         >
                             Convolutions - Work horse behind CNN
                         </Link> 
@@ -95,6 +100,7 @@ const BlogsAI = () => {
                     <Typography variant="h5" >
                         <Link href="https://wordpress.com/post/anilbhatt1.tech.blog/50"
                             sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
+                            target="_blank" rel="noopener noreferrer"
                         >
                             Deep Learning- Understanding Receptive field in Computer Vision
                         </Link> 
@@ -110,6 +116,7 @@ const BlogsAI = () => {
                     <Typography variant="h5" >
                         <Link href="https://wordpress.com/post/anilbhatt1.tech.blog/21"
                             sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
+                            target="_blank" rel="noopener noreferrer"
                         >
                             How Computers classify objects in an image using Deep Learning
                         </Link> 
