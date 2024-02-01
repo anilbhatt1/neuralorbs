@@ -20,6 +20,7 @@ const BlogsMLOps = () => {
                     <Typography variant="h5" >
                         <Link href="https://wordpress.com/post/anilbhatt1.tech.blog/687"
                             sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
+                            target="_blank" rel="noopener noreferrer"
                         >
                             How to create and push a docker image for image classification to docker hub, later pull it for inferencing
                         </Link> 
