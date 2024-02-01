@@ -1,22 +1,22 @@
-// Gptpassagegen.jsx
+// Imagealchemy.jsx
 import React from 'react';
 import { Typography, Link, Avatar, Box} from '@mui/material';
-const hfurl = "https://huggingface.co/spaces/anilbhatt1/GPT-Passage-Generator";
-const githuburl = "https://github.com/anilbhatt1/ERA1_S21_GPT_Karpathy";
+const hfurl = "https://huggingface.co/spaces/anilbhatt1/ImageAlchemy-StableDiffusion";
+const githuburl = "https://github.com/anilbhatt1/ERA1_S20_Stable_Diffusion";
 
-const Gptpassagegen = () => {
+const Imagealchemy = () => {
   return (
       <div >
           <Typography variant="h3" style={{ fontFamily: "Crimson Text, serif"}} m={4}>
-            GPT Passage Generator
+            Image Alchemy - Stable Diffusion
           </Typography>
           <Typography variant="h5" style={{ fontFamily: "Crimson Text, serif"}} m={4}>
-            GPT Passage gen is a huggingface gradio app that will generate text based on (a) given text context (b) for given character length. GPT model used here is trained from scratch on limited data from publically available online books. Since the model was trained on limited data the output text generated may not always be coherent.
+            Image Alchemy is an image generation app built using Gradio and hosted on huggingface spaces. App will generates image that fits with 1. given text prompt 2. given reference image and 3. selected style. App uses stable diffusion model to generate the image. Stable Diffusion is a powerful and accessible deep learning model that can generate high-quality images from text descriptions.
           </Typography>  
           <Box sx={{ display: 'inline-flex' }} m={4}>
               <Avatar
                 variant="square"
-                src='/images/gptpassagegen_app_cover.png'
+                src='/images/imagealchemy_app_cover.png'
                 alt='Jane Doe'
                 sx={{bgcolor: 'primary.main', height:100, width:100}}
               />   
@@ -25,7 +25,7 @@ const Gptpassagegen = () => {
                   <Link href={hfurl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    GPT Passage Generator
+                    Image Alchemy - Stable Diffusion
                   </Link> 
               </Typography>                
           </Box>     
@@ -49,4 +49,4 @@ const Gptpassagegen = () => {
   );
 };
 
-export default Gptpassagegen;
+export default Imagealchemy;

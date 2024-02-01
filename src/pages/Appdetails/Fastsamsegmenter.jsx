@@ -1,22 +1,22 @@
-// Gptpassagegen.jsx
+// Fastsamsegmenter.jsx
 import React from 'react';
 import { Typography, Link, Avatar, Box} from '@mui/material';
-const hfurl = "https://huggingface.co/spaces/anilbhatt1/GPT-Passage-Generator";
-const githuburl = "https://github.com/anilbhatt1/ERA1_S21_GPT_Karpathy";
+const hfurl = "https://huggingface.co/spaces/anilbhatt1/FastSAM-Segmenter";
+const githuburl = "https://github.com/anilbhatt1/ERA1_S19_CLIP_FastSAM/tree/master/FastSAM";
 
-const Gptpassagegen = () => {
+const Fastsamsegmenter = () => {
   return (
       <div >
           <Typography variant="h3" style={{ fontFamily: "Crimson Text, serif"}} m={4}>
-            GPT Passage Generator
+            FAST SAM Segmenter
           </Typography>
           <Typography variant="h5" style={{ fontFamily: "Crimson Text, serif"}} m={4}>
-            GPT Passage gen is a huggingface gradio app that will generate text based on (a) given text context (b) for given character length. GPT model used here is trained from scratch on limited data from publically available online books. Since the model was trained on limited data the output text generated may not always be coherent.
+            FastSAM segmenter is an image segmentation app built using gradio and hosted on huggingface spaces. FAST SAM is the acronym for FAST Segment Anything Model. App uses FASTSAM model that will segment the objects present in input image.
           </Typography>  
           <Box sx={{ display: 'inline-flex' }} m={4}>
               <Avatar
                 variant="square"
-                src='/images/gptpassagegen_app_cover.png'
+                src='/images/fastsam_app_cover.png'
                 alt='Jane Doe'
                 sx={{bgcolor: 'primary.main', height:100, width:100}}
               />   
@@ -25,7 +25,7 @@ const Gptpassagegen = () => {
                   <Link href={hfurl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    GPT Passage Generator
+                    FAST SAM Segmenter
                   </Link> 
               </Typography>                
           </Box>     
@@ -49,4 +49,4 @@ const Gptpassagegen = () => {
   );
 };
 
-export default Gptpassagegen;
+export default Fastsamsegmenter;

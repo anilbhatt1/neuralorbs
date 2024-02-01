@@ -98,12 +98,12 @@ const Apps = () => {
         <Stack direction='row' spacing={4} >
             <Avatar
                 variant="square"
-                src='/images/fastsam.png'
+                src='/images/fastsam_app_cover.png'
                 alt='Jane Doe'
                 sx={{bgcolor: 'primary.main', height:60, width:75}}
             />                                    
             <Typography variant="h5" >
-                <Link href="https://huggingface.co/spaces/anilbhatt1/FastSAM-Segmenter"
+                <Link href="/apps/fastsamsegmenter"
                     sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
                 >
                     FastSAM-Segmenter
@@ -113,12 +113,12 @@ const Apps = () => {
         <Stack direction='row' spacing={4} >
             <Avatar
                 variant="square"
-                src='/images/imagealchemy_stable_diffusion.png'
+                src='/images/imagealchemy_app_cover.png'
                 alt='Jane Doe'
                 sx={{bgcolor: 'primary.main', height:60, width:75}}
             />                                    
             <Typography variant="h5" >
-                <Link href="https://huggingface.co/spaces/anilbhatt1/ImageAlchemy-StableDiffusion"
+                <Link href="/apps/imagealchemy"
                     sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
                 >
                     ImageAlchemy-StableDiffusion

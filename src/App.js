@@ -8,6 +8,8 @@ import Phi2dialoggen from './pages/Appdetails/Phi2dialoggen';
 import Pythiadialoggen from './pages/Appdetails/Pythiadialoggen';
 import Clipimagesearch from './pages/Appdetails/Clipimagesearch';
 import Gptpassagegen from './pages/Appdetails/Gptpassagegen';
+import Fastsamsegmenter from './pages/Appdetails/Fastsamsegmenter';
+import Imagealchemy from './pages/Appdetails/Imagealchemy';
 import BlogsAI from './pages/Blogs/BlogsAI';
 import BlogsMLOps from './pages/Blogs/BlogsMLOps';
 import Contact from './pages/Contact';
@@ -25,6 +27,8 @@ const App = () => {
                 <Route path="/apps/pythiadialoggen" element={<Pythiadialoggen />} />
                 <Route path="/apps/clipimagesearch" element={<Clipimagesearch />} />
                 <Route path="/apps/gptpassagegen" element={<Gptpassagegen />} />
+                <Route path="/apps/fastsamsegmenter" element={<Fastsamsegmenter />} />
+                <Route path="/apps/imagealchemy" element={<Imagealchemy />} />                
                 <Route path="/blogs/AI" element={<BlogsAI />} />
                 <Route path="/blogs/MLOps" element={<BlogsMLOps />} />
                 <Route path="/contact" element={<Contact />} />
