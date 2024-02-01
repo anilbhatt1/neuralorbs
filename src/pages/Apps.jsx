@@ -50,13 +50,14 @@ const Apps = () => {
         <Stack direction='row' spacing={4} >
             <Avatar
                 variant="square"
-                src='/images/pythia_dialog_gen.png'
+                src='/images/pythiadialoggen_app_cover.png'
                 alt='Jane Doe'
                 sx={{bgcolor: 'primary.main', height:60, width:75}}
             />                                    
             <Typography variant="h5" >
-                <Link href="https://huggingface.co/spaces/neuralorbs/DialogGen"
+                <Link href="/apps/pythiadialoggen"
                     sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
+                    target="_blank" rel="noopener noreferrer"
                 >
                     Pythia-Dialoggen
                 </Link> 
@@ -65,13 +66,14 @@ const Apps = () => {
         <Stack direction='row' spacing={4} >
             <Avatar
                 variant="square"
-                src='/images/clip_image_search.png'
+                src='/images/clipimagesearch_app_cover.png'
                 alt='Jane Doe'
                 sx={{bgcolor: 'primary.main', height:60, width:75}}
             />                                    
             <Typography variant="h5" >
-                <Link href="https://huggingface.co/spaces/anilbhatt1/CLIP-Image-Search"
+                <Link href="/apps/clipimagesearch"
                     sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
+                    target="_blank" rel="noopener noreferrer"
                 >
                     CLIP-Image-Search
                 </Link> 
@@ -80,12 +82,13 @@ const Apps = () => {
         <Stack direction='row' spacing={4} >
             <Avatar
                 variant="square"
-                src='/images/gpt_passage_gen.png'
+                src='/images/gptpassagegen_app_cover.png'
                 alt='Jane Doe'
                 sx={{bgcolor: 'primary.main', height:60, width:75}}
+                target="_blank" rel="noopener noreferrer"
             />                                    
             <Typography variant="h5" >
-                <Link href="https://huggingface.co/spaces/anilbhatt1/GPT-Passage-Generator"
+                <Link href="/apps/gptpassagegen"
                     sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
                 >
                     GPT-Passage-Generator

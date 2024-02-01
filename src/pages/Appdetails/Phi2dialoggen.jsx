@@ -3,6 +3,7 @@ import React from 'react';
 import { Typography, Link, Avatar, Box} from '@mui/material';
 const hfurl = "https://huggingface.co/spaces/neuralorbs/phi2-dialog-partner";
 const githuburl = "https://github.com/anilbhatt1/ERA1_S27_qLORA";
+const yturl = "https://youtu.be/97xhjCSN9I0";
 
 const Phi2dialoggen = () => {
   return (
@@ -44,7 +45,23 @@ const Phi2dialoggen = () => {
                     Github
                   </Link> 
               </Typography>                
-          </Box>                                           
+          </Box>   
+          <Box sx={{ display: 'inline-flex' }} m={4}>
+              <Avatar
+                variant="square"
+                src='/images/phi2dialoggen_youtube.png'
+                alt='Jane Doe'
+                sx={{bgcolor: 'primary.main', height:100, width:100}}
+              />   
+              <Typography variant="h4" style={{ fontFamily: "Crimson Text, serif"}} m={4}>
+                  View youtube video demo : 
+                  <Link href={yturl} 
+                        underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
+                  >
+                    Youtube Demo Video
+                  </Link> 
+              </Typography>                
+          </Box>                                                   
       </div>                          
   );
 };
