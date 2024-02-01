@@ -13,6 +13,21 @@ const BlogsAI = () => {
                 <Stack direction='row' spacing={2} >
                     <Avatar
                         variant="square"
+                        src='/images/jnana.png'
+                        alt='Jane Doe'
+                        sx={{bgcolor: 'primary.main', height:60, width:75}}
+                    />                                    
+                    <Typography variant="h5" >
+                        <Link href="http://tinyurl.com/jnana-blog"
+                            sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
+                        >
+                            Building a Multimodal LLM from scratch
+                        </Link> 
+                    </Typography>
+                </Stack>
+                <Stack direction='row' spacing={2} >
+                    <Avatar
+                        variant="square"
                         src='/images/AI_Blog6.png'
                         alt='Jane Doe'
                         sx={{bgcolor: 'primary.main', height:60, width:75}}

@@ -11,10 +11,25 @@ const Apps = () => {
             </Typography>
         </Stack>
         <Stack direction='row' spacing={2} justifyContent='center' >
-            <Typography variant="h5" sx={{color: '#673ab7', fontFamily: 'Raleway'}}>
+            <Typography variant="p1" sx={{color: '#673ab7', fontFamily: 'Raleway'}}>
                 Apps may take few minutes to load due to cold-start. 
             </Typography>
         </Stack>
+        <Stack direction='row' spacing={4} >
+            <Avatar
+                variant="square"
+                src='/images/jnana.png'
+                alt='Jane Doe'
+                sx={{bgcolor: 'primary.main', height:60, width:75}}
+            />                                    
+            <Typography variant="h5" >
+                <Link href="/jnana"
+                    sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
+                >
+                    Jnana-Multimodal LLM
+                </Link> 
+            </Typography>
+        </Stack>  
         <Stack direction='row' spacing={4} >
             <Avatar
                 variant="square"

@@ -10,19 +10,18 @@ const Home = () => {
             </Typography>
             <Typography variant="h5" style={{ fontFamily: "Crimson Text, serif"}}>
                 <br />
-                I'm Anil Bhatt, a seasoned technologist with a passion for exploring the frontiers of AI, IoT, and Robotics. Hailing from India, my journey spans over 16 years of navigating the landscape of technology and healthcare insurance domain while spearheading multi-million dollar projects for global clients. 
+                I'm Anil Bhatt from India, technologist with a passion for exploring the frontiers of AI, IoT, and Robotics. My career spans over 16 years of navigating the landscape of technology domain while spearheading multi-million dollar projects for global clients. 
                 <br />
                 <br />
-                This site is my bridge, connecting my technical expertise with the wider world. Here, I share my explorations and learnings in LLMs, Generative AI, Computer Vision, NLP, Robotics, and MLOPs, demystifying complex concepts through approachable blog posts and practical projects built on edge devices like Raspberry Pi and Jetson Nano.
+                This site is my bridge, connecting my technical expertise with the wider world. Here, I share my explorations and learnings in AI, Robotics, and MLOPs, through approachable blog posts and practical projects built on pytorch, cloud and edge devices like Raspberry Pi and Jetson Nano.
                 <br />
                 <br />
-                Beyond the realm of technology, I'm an avid reader, also an Arsenal fan. At times, I trade screens for slopes, traversing the beauty of India through the lens of trekking.
+                Beyond the realm of technology, I'm an avid reader, an Arsenal fan and a trekking enthusiast. Please don't be a stranger & reach me at <span style={{ fontWeight: 'bold' }}>CONTACT</span>.
                 <br />
                 <br />                    
-                Let's explore the world together !. 
+                Let's explore the world together ! 
                 <br />
                 <br />
-                <span style={{ fontWeight: 'bold' }}> P.S. </span> Don't be a stranger & reach me at <span style={{ fontWeight: 'bold' }}>CONTACT</span> ! 
             </Typography>
         </div>
     );
