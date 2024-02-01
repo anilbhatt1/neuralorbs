@@ -23,7 +23,8 @@ const Apps = () => {
                 sx={{bgcolor: 'primary.main', height:60, width:75}}
             />                                    
             <Typography variant="h5" >
-                <Link href="/jnana"
+                <Link href="/apps/jnana"
+                // {/* <Link href="https://huggingface.co/spaces/neuralorbs/Jnana-Phi2-Multimodal-Conversation-Agent" */}
                     sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
                 >
                     Jnana-Multimodal LLM
