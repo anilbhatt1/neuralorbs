@@ -6,7 +6,7 @@ const githuburl = "https://github.com/anilbhatt1/Jnana_phi2_multimodal_llm";
 const blogurl = "https://anilbhatt1.tech.blog/2024/01/31/how-to-build-a-multiomodal-llm-from-scratch/";
 const yturl = "https://youtu.be/0aSeaciVpUs";
 
-const Home = () => {
+const Jnana = () => {
   return (
       <div >
           <Typography variant="h3" style={{ fontFamily: "Crimson Text, serif"}} m={4}>
@@ -86,4 +86,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Jnana;
