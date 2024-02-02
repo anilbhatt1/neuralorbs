@@ -10,6 +10,7 @@ import Clipimagesearch from './pages/Appdetails/Clipimagesearch';
 import Gptpassagegen from './pages/Appdetails/Gptpassagegen';
 import Fastsamsegmenter from './pages/Appdetails/Fastsamsegmenter';
 import Imagealchemy from './pages/Appdetails/Imagealchemy';
+import Controlnet from './pages/Appdetails/Controlnet';
 import BlogsAI from './pages/Blogs/BlogsAI';
 import BlogsMLOps from './pages/Blogs/BlogsMLOps';
 import Contact from './pages/Contact';
@@ -28,7 +29,8 @@ const App = () => {
                 <Route path="/apps/clipimagesearch" element={<Clipimagesearch />} />
                 <Route path="/apps/gptpassagegen" element={<Gptpassagegen />} />
                 <Route path="/apps/fastsamsegmenter" element={<Fastsamsegmenter />} />
-                <Route path="/apps/imagealchemy" element={<Imagealchemy />} />                
+                <Route path="/apps/imagealchemy" element={<Imagealchemy />} />  
+                <Route path="/apps/controlnet" element={<Controlnet />} />                              
                 <Route path="/blogs/AI" element={<BlogsAI />} />
                 <Route path="/blogs/MLOps" element={<BlogsMLOps />} />
                 <Route path="/contact" element={<Contact />} />

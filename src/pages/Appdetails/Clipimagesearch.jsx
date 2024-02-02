@@ -3,6 +3,7 @@ import React from 'react';
 import { Typography, Link, Avatar, Box} from '@mui/material';
 const hfurl = "https://huggingface.co/spaces/anilbhatt1/CLIP-Image-Search";
 const githuburl = "https://github.com/anilbhatt1/ERA1_S19_CLIP_FastSAM/tree/master/CLIP_Image_Search";
+const yturl = "https://youtu.be/dTjU6uR4w30";
 
 const Clipimagesearch = () => {
   return (
@@ -44,7 +45,23 @@ const Clipimagesearch = () => {
                     Github
                   </Link> 
               </Typography>                
-          </Box>                                           
+          </Box>    
+          <Box sx={{ display: 'inline-flex' }} m={4}>
+              <Avatar
+                variant="square"
+                src='/images/clipimagesearch_youtube.png'
+                alt='Jane Doe'
+                sx={{bgcolor: 'primary.main', height:100, width:100}}
+              />   
+              <Typography variant="h4" style={{ fontFamily: "Crimson Text, serif"}} m={4}>
+                  View youtube video demo : 
+                  <Link href={yturl} 
+                        underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
+                  >
+                    Youtube Demo Video (0:53 secs)
+                  </Link> 
+              </Typography>                
+          </Box>                                                   
       </div>                          
   );
 };

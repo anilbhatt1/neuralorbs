@@ -58,7 +58,7 @@ const Phi2dialoggen = () => {
                   <Link href={yturl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Youtube Demo Video
+                    Youtube Demo Video (1:54 secs)
                   </Link> 
               </Typography>                
           </Box>                                                   

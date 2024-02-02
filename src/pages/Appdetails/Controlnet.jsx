@@ -1,27 +1,23 @@
-// Jnana.js
+// Controlnet.jsx
 import React from 'react';
 import { Typography, Link, Avatar, Box} from '@mui/material';
-const hfurl = "https://huggingface.co/spaces/neuralorbs/Jnana-Phi2-Multimodal-Conversation-Agent";
-const githuburl = "https://github.com/anilbhatt1/Jnana_phi2_multimodal_llm";
-const blogurl = "https://anilbhatt1.tech.blog/2024/01/31/how-to-build-a-multiomodal-llm-from-scratch/";
-const yturl = "https://youtu.be/0aSeaciVpUs";
+const hfurl = "https://huggingface.co/spaces/neuralorbs/Controlnet-Stable-Diffusion";
+const githuburl = "https://github.com/anilbhatt1/Deeplearning-E8P1/tree/master/Controlnet-canny";
+const yturl = "https://youtu.be/S-MLOozCseQ";
 
-const Jnana = () => {
+const Controlnet = () => {
   return (
       <div >
           <Typography variant="h3" style={{ fontFamily: "Crimson Text, serif"}} m={4}>
-              Jnana - Multimodal LLM App
+            Controlnet Canny Stable Diffusion
           </Typography>
           <Typography variant="h5" style={{ fontFamily: "Crimson Text, serif"}} m={4}>
-              Jñāna is a multimodal LLM gradio app hosted on huggingface spaces.
-              It is capable of accepting inputs in the form of image/audio/text or a combination of any of these 3.
-              Jñāna uses microsoft/phi2 LLM model that was trained based on Llava 1.0 and Llava 1.5.               
-              qlora strategy was used for fine-tuning microsoft/phi2.
+          ControlNet is a neural network structure to control diffusion models by adding extra conditions. ControlNet equips us with the ability to control SD and generate images in the way we desire by passing a control image and prompt. In this app, we will give a pattern image and a prompt. Model will detect the canny edges of the image and based on prompt will create a new image that matches the shape of control input image.
           </Typography>  
           <Box sx={{ display: 'inline-flex' }} m={4}>
               <Avatar
                 variant="square"
-                src='/images/jnana_app_cover.png'
+                src='/images/controlnet_app_cover.png'
                 alt='Jane Doe'
                 sx={{bgcolor: 'primary.main', height:100, width:100}}
               />   
@@ -30,7 +26,7 @@ const Jnana = () => {
                   <Link href={hfurl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Jnana-Multimodal LLM
+                    Controlnet Stable Diffusion 
                   </Link> 
               </Typography>                
           </Box>     
@@ -49,27 +45,11 @@ const Jnana = () => {
                     Github
                   </Link> 
               </Typography>                
-          </Box>      
-          <Box sx={{ display: 'inline-flex' }} m={4} >
-              <Avatar
-                variant="square"
-                src='/images/blog.png'
-                alt='Jane Doe'
-                sx={{bgcolor: 'primary.main', height:100, width:100}}
-              />   
-              <Typography variant="h4" style={{ fontFamily: "Crimson Text, serif"}} m={4}>
-                  Read my detailed blog on building this app : 
-                  <Link href={blogurl} 
-                        underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
-                  >
-                    Blog
-                  </Link> 
-              </Typography>                
-          </Box>       
+          </Box>    
           <Box sx={{ display: 'inline-flex' }} m={4}>
               <Avatar
                 variant="square"
-                src='/images/jnana_youtube.png'
+                src='/images/controlnet_youtube.png'
                 alt='Jane Doe'
                 sx={{bgcolor: 'primary.main', height:100, width:100}}
               />   
@@ -78,12 +58,12 @@ const Jnana = () => {
                   <Link href={yturl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Youtube Demo Video (1:15 mins)
+                    Youtube Demo Video (0:41 secs)
                   </Link> 
               </Typography>                
-          </Box>                                     
+          </Box>                                                   
       </div>                          
   );
 };
 
-export default Jnana;
+export default Controlnet;

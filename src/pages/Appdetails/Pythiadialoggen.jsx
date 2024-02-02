@@ -3,6 +3,7 @@ import React from 'react';
 import { Typography, Link, Avatar, Box} from '@mui/material';
 const hfurl = "https://huggingface.co/spaces/neuralorbs/DialogGen";
 const githuburl = "https://github.com/anilbhatt1/ERA1_S22_Pythia_training_Dialoggen_HFSpaceapp";
+const yturl = "https://youtu.be/1a9d_36pbcQ";
 
 const Pythiadialoggen = () => {
   return (
@@ -11,7 +12,7 @@ const Pythiadialoggen = () => {
             Pythia - Dialog Generator
           </Typography>
           <Typography variant="h5" style={{ fontFamily: "Crimson Text, serif"}} m={4}>
-            DialogGen is a hugging face gradio app that generates text based on 1. given text context 2. for given character length 3. number of Samples 4. using Selected GPT model
+            DialogGen is a hugging face gradio app that generates text based on 1. given text context 2. for given character length 3. number of Samples 4. using Selected GPT model.
             Currently following models are available for selection 1. pythia_160m_deduped_huggingface 2. pythia_160m_deduped_custom 3. pythia_410m_deduped 4. pythia_70m_deduped         
           </Typography>  
           <Box sx={{ display: 'inline-flex' }} m={4}>
@@ -45,7 +46,23 @@ const Pythiadialoggen = () => {
                     Github
                   </Link> 
               </Typography>                
-          </Box>                                           
+          </Box>  
+          <Box sx={{ display: 'inline-flex' }} m={4}>
+              <Avatar
+                variant="square"
+                src='/images/pythia_youtube.jpg'
+                alt='Jane Doe'
+                sx={{bgcolor: 'primary.main', height:100, width:100}}
+              />   
+              <Typography variant="h4" style={{ fontFamily: "Crimson Text, serif"}} m={4}>
+                  View youtube video demo : 
+                  <Link href={yturl} 
+                        underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
+                  >
+                    Youtube Demo Video (1:14 mins)
+                  </Link> 
+              </Typography>                
+          </Box>                                                    
       </div>                          
   );
 };
