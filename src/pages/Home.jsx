@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography } from '@mui/material';
+import { Typography, Link } from '@mui/material';
 
 const Home = () => {
     return (
@@ -16,7 +16,13 @@ const Home = () => {
                 This site is my bridge, connecting my technical expertise with the wider world. Here, I share my explorations and learnings in AI, Robotics, and MLOPs, through approachable blog posts and practical projects built on pytorch, cloud and edge devices like Raspberry Pi and Jetson Nano.
                 <br />
                 <br />
-                Beyond the realm of technology, I'm an avid reader, an Arsenal fan and a trekking enthusiast. Please don't be a stranger & reach me at <span style={{ fontWeight: 'bold' }}>CONTACT</span>.
+                Beyond the realm of technology, I'm an avid reader, an Arsenal fan and a trekking enthusiast. Please don't be a stranger & reach me at 
+                <Link href="/Contact"
+                        sx={{color: 'blue', fontFamily : 'Helvetica Neue',  fontWeight: 'bold'}}
+                        target="_blank" rel="noopener noreferrer" underline="none"
+                    >
+                    {" Contact"}
+                </Link>                 
                 <br />
                 <br />                    
                 Let's explore the world together ! 

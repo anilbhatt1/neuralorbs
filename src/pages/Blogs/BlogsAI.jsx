@@ -22,7 +22,7 @@ const BlogsAI = () => {
                             sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
                             target="_blank" rel="noopener noreferrer"
                         >
-                            Building a Multimodal LLM from scratch
+                            Building a Multimodal LLM (Jñāna) from scratch
                         </Link> 
                     </Typography>
                 </Stack>

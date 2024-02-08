@@ -26,7 +26,7 @@ const Fastsamsegmenter = () => {
                   <Link href={hfurl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    FAST SAM Segmenter
+                    {" FAST SAM Segmenter"}
                   </Link> 
               </Typography>                
           </Box>     
@@ -42,7 +42,7 @@ const Fastsamsegmenter = () => {
                   <Link href={githuburl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Github
+                    {" Github"}
                   </Link> 
               </Typography>                
           </Box> 
@@ -58,7 +58,7 @@ const Fastsamsegmenter = () => {
                   <Link href={yturl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Youtube Demo Video (0:47 secs)
+                    {" Youtube Demo Video (0:47 secs)"}
                   </Link> 
               </Typography>                
           </Box>                                                   

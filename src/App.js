@@ -15,9 +15,27 @@ import BlogsAI from './pages/Blogs/BlogsAI';
 import BlogsMLOps from './pages/Blogs/BlogsMLOps';
 import Contact from './pages/Contact';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+
+const theme = createTheme({
+    palette: {
+      mode: 'dark',
+      primary: {
+        main: '#0000FF', // Modify for desired primary color
+      },
+      text: {
+        primary: '#fff',
+      },
+      background: {
+        default: '#222', // Modify for desired background color
+      },
+    },
+  });
+
 
 const App = () => {
     return (
+        <ThemeProvider theme={theme}>
         <Router>
             <MuiNavbar />     
             <Routes>
@@ -35,7 +53,8 @@ const App = () => {
                 <Route path="/blogs/MLOps" element={<BlogsMLOps />} />
                 <Route path="/contact" element={<Contact />} />
             </Routes>  
-        </Router>         
+        </Router>   
+        </ThemeProvider>      
     );
 };
 

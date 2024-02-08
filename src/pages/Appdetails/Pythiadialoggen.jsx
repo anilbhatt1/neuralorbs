@@ -27,7 +27,7 @@ const Pythiadialoggen = () => {
                   <Link href={hfurl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Pythia - Dialog Generator
+                    {" Pythia - Dialog Generator"}
                   </Link> 
               </Typography>                
           </Box>     
@@ -43,7 +43,7 @@ const Pythiadialoggen = () => {
                   <Link href={githuburl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Github
+                    {" Github"}
                   </Link> 
               </Typography>                
           </Box>  
@@ -59,7 +59,7 @@ const Pythiadialoggen = () => {
                   <Link href={yturl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Youtube Demo Video (1:14 mins)
+                    {" Youtube Demo Video (1:14 mins)"}
                   </Link> 
               </Typography>                
           </Box>                                                    

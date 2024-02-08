@@ -28,6 +28,7 @@ const Contact = () => {
                     <Typography variant="h4" >
                         <Link href="https://www.linkedin.com/in/anilkumar-n-bhatt/"
                             sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
+                            target="_blank" rel="noopener noreferrer"
                         >
                             https://www.linkedin.com/in/anilkumar-n-bhatt/
                         </Link> 
@@ -43,6 +44,7 @@ const Contact = () => {
                     <Typography variant="h4" >
                         <Link href="https://github.com/anilbhatt1"
                             sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
+                            target="_blank" rel="noopener noreferrer"
                         >
                             https://github.com/anilbhatt1
                         </Link> 
@@ -58,6 +60,7 @@ const Contact = () => {
                     <Typography variant="h4" >
                         <Link href="anilaknb@gmail.com"
                             sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
+                            target="_blank" rel="noopener noreferrer"
                         >
                             anilaknb@gmail.com
                         </Link> 
@@ -73,6 +76,7 @@ const Contact = () => {
                     <Typography variant="h4" >
                         <Link href="https://twitter.com/anil_bhatt_"
                             sx={{color: 'black', fontFamily : 'Helvetica Neue'}}
+                            target="_blank" rel="noopener noreferrer"
                         >
                             https://twitter.com/anil_bhatt_
                         </Link> 

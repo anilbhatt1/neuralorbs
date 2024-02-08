@@ -26,7 +26,7 @@ const Imagealchemy = () => {
                   <Link href={hfurl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Image Alchemy - Stable Diffusion
+                    {" Image Alchemy - Stable Diffusion"}
                   </Link> 
               </Typography>                
           </Box>     
@@ -42,7 +42,7 @@ const Imagealchemy = () => {
                   <Link href={githuburl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Github
+                    {" Github"}
                   </Link> 
               </Typography>                
           </Box>        
@@ -58,7 +58,7 @@ const Imagealchemy = () => {
                   <Link href={yturl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Youtube Demo Video (2:06 mins)
+                    {" Youtube Demo Video (2:06 mins)"}
                   </Link> 
               </Typography>                
           </Box>  

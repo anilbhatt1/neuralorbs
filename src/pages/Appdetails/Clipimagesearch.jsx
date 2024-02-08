@@ -26,7 +26,7 @@ const Clipimagesearch = () => {
                   <Link href={hfurl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Clip Image Search
+                    {" Clip Image Search"}
                   </Link> 
               </Typography>                
           </Box>     
@@ -42,7 +42,7 @@ const Clipimagesearch = () => {
                   <Link href={githuburl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Github
+                    {" Github"}
                   </Link> 
               </Typography>                
           </Box>    
@@ -58,7 +58,7 @@ const Clipimagesearch = () => {
                   <Link href={yturl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Youtube Demo Video (0:53 secs)
+                    {" Youtube Demo Video (0:53 secs)"}
                   </Link> 
               </Typography>                
           </Box>                                                   

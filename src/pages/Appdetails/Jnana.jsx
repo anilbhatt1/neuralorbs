@@ -10,7 +10,7 @@ const Jnana = () => {
   return (
       <div >
           <Typography variant="h3" style={{ fontFamily: "Crimson Text, serif"}} m={4}>
-              Jnana - Multimodal LLM App
+              Jñāna - Multimodal LLM App
           </Typography>
           <Typography variant="h5" style={{ fontFamily: "Crimson Text, serif"}} m={4}>
               Jñāna is a multimodal LLM gradio app hosted on huggingface spaces.
@@ -30,7 +30,7 @@ const Jnana = () => {
                   <Link href={hfurl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Jnana-Multimodal LLM
+                    {" Jnana-Multimodal LLM"}
                   </Link> 
               </Typography>                
           </Box>     
@@ -46,7 +46,7 @@ const Jnana = () => {
                   <Link href={githuburl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Github
+                    {" Github"}
                   </Link> 
               </Typography>                
           </Box>      
@@ -62,7 +62,7 @@ const Jnana = () => {
                   <Link href={blogurl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Blog
+                    {" Blog"}
                   </Link> 
               </Typography>                
           </Box>       
@@ -78,7 +78,7 @@ const Jnana = () => {
                   <Link href={yturl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Youtube Demo Video (1:15 mins)
+                    {" Youtube Demo Video (1:15 mins)"}
                   </Link> 
               </Typography>                
           </Box>                                     

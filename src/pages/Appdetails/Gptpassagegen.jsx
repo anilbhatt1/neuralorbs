@@ -26,7 +26,7 @@ const Gptpassagegen = () => {
                   <Link href={hfurl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    GPT Passage Generator
+                    {" GPT Passage Generator"}
                   </Link> 
               </Typography>                
           </Box>     
@@ -42,7 +42,7 @@ const Gptpassagegen = () => {
                   <Link href={githuburl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Github
+                    {" Github"}
                   </Link> 
               </Typography>                
           </Box> 
@@ -58,7 +58,7 @@ const Gptpassagegen = () => {
                   <Link href={yturl} 
                         underline="none" variant="h4" target="_blank" rel="noopener noreferrer"
                   >
-                    Youtube Demo Video (0:52 secs)
+                    {" Youtube Demo Video (0:52 secs)"}
                   </Link> 
               </Typography>                
           </Box>                                                      
